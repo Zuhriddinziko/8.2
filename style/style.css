@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big {
+    padding-top: 100px;
+    display: block;
+    background-image: url(../images/background-desktop.png);
+    background-position: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width: 208px;
+    align-items: center;
+    margin-bottom: 60PX;
+}
+
+.logo_name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.info h2 {
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    width: 891px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    width: 891px;
+    opacity: 0.5;
+    margin-bottom: 45px;
+}
+
+.formTab {
+    width: 460px;
+    /* align-items: center;
+    text-align: center; */
+
+    height: 610px;
+    initial-letter: 0.5px;
+}
+
+.yuklash {
+    height: 190px;
+    width: 460px;
+    display: flex;
+    margin-bottom: 24px;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fileName {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    initial-letter: 0.5px;
+    text-align: start;
+
+}
+
+.fileYuklashDIv {
+    background-color: #8784a540;
+    height: 126px;
+    width: 460px;
+
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    border: 1px dashed rgba(245, 222, 179, 0.478);
+}
+
+.fileYuklash {
+    z-index: 110;
+    text-align: center;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+    background-color: #8784A5;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-image: url(../images/icon-upload.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.drog {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.info_file {
+    display: block;
+    align-items: center;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.inputName {
+    width: 460px;
+    background-color: #8784a540;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    height: 54px;
+    border-radius: 12px;
+    border: 1px solid #8784A5;
+
+}
+
+input::placeholder {
+    color: #D1D0D5;
+}
+
+.btn {
+    background-color: #F57463;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8d3f34;
+
+}
+
+.btn:active {
+    background-color: #63f596;
+    color: black;
+
+}
